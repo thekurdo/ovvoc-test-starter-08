@@ -1,0 +1,13 @@
+{
+  "name": "ovvoc-test-starter-08",
+  "version": "1.0.0",
+  "description": "CLI log formatter with colored output",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/index.test.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2"
+  }
+}
