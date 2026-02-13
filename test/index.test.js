@@ -1,6 +1,6 @@
-const assert = require('assert');
-const { formatLog, createLogger, formatTable, LOG_LEVELS } = require('../src/index');
-const { theme, colorize, rainbow, progressBar } = require('../src/colors');
+import assert from 'assert';
+import {  formatLog, createLogger, formatTable, LOG_LEVELS  } from '../src/index.js';
+import {  theme, colorize, rainbow, progressBar  } from '../src/colors.js';
 
 let passed = 0;
 let failed = 0;

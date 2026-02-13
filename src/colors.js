@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+import chalk from 'chalk';
 
 const theme = {
   primary: chalk.hex('#6C63FF'),
@@ -36,4 +36,4 @@ function progressBar(current, total, width = 30) {
   return `${bar} ${label} (${current}/${total})`;
 }
 
-module.exports = { theme, colorize, rainbow, progressBar };
+export {  theme, colorize, rainbow, progressBar  };
