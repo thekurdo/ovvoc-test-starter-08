@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "ovvoc-test-starter-08",
   "version": "1.0.0",
   "description": "CLI log formatter with colored output",
@@ -8,6 +9,6 @@
     "test": "node test/index.test.js"
   },
   "dependencies": {
-    "chalk": "4.1.2"
+    "chalk": "5.4.1"
   }
 }

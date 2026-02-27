@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+import chalk from 'chalk';
 
 const LOG_LEVELS = {
   error: chalk.bold.red,
@@ -55,4 +55,4 @@ function formatTable(headers, rows) {
   return [headerRow, sep, ...dataRows].join('\n');
 }
 
-module.exports = { formatLog, createLogger, formatTable, LOG_LEVELS };
+export {  formatLog, createLogger, formatTable, LOG_LEVELS  };
